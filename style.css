@@ -1,15 +1,104 @@
+
 body {
 	font-family: Arial, sans-serif;
 	background-color: white;
 	margin: 0;
 }
 
-.container-calendar #left h1 {
-	color: rgb(138, 15, 93);
-	text-align: center;
-	background-color: #f2f2f2;
-	margin: 0;
-	padding: 10px 0;
-
+.wrapper {
+	max-width: 1100px;
+	margin: 15px auto;
 }
+
+.container-calendar {
+	background: #ffffff;
+	padding: 15px;
+	height: 600px;
+	width: 900px;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: space-between;
+}
+
+.container-calendar #left h1 {
+    color:  rgb(199, 33, 149);;
+    text-align: center;
+    background-color: #f2f2f2;
+	width: 900px;
+	height: 200px;
+    margin: 0;
+    padding: 10px 0;
+	font-size: 50px;
+}
+
+
+#event-section {
+	padding: 10px;
+	background: #f5f5f5;
+	margin: 20px 0;
+	border: 1px solid #ccc;
+	height: 335px;
+}
+
+
+
+#event-section h3 {
+	color: rgb(199, 33, 149);
+	font-size: 30px;
+	margin: 0;
+	height: 50px;
+}
+
+
+#event-section input[type="text"] {
+	margin: 10px 0;
+	padding: 5px;
+	width: 80%;
+	height:50px
+}
+
+#event-section button {
+	background: rgb(207, 43, 161);
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.event-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+#clear-events {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(207, 43, 161);; /* Purple color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clear-events:hover {
+    background-color: rgb(207, 43, 161);; /* Darker shade of purple on hover */
+}
+.container-events h1 {
+    color: rgb(207, 43, 161);;
+}
+
+
+
+
+
+
+
+
 
